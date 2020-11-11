@@ -1,0 +1,12 @@
+git conifg --global user.name 
+git config --global user.email 
+
+1. touch .gitignore ----> creates a file in which we can add folders to get ignored while uploading to github
+2. git init -----> initializes  project with a .git folder
+3. git add . -----> providing a staging area on git for the project files
+4. git commit -m "any message" -----> initial commit
+5. git status -----> status of repository
+6. git remote add origin {paste the link from SSH on github} -----> to link all the files to this ssh link on github
+
+The below step won't work without SSH authentication
+7. git push origin master -----> to push files 

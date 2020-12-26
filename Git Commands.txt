@@ -1,0 +1,16 @@
+git conifg --global user.name 
+git config --global user.email 
+
+1. touch .gitignore ----> creates a folder in which we can add files to get ignored while uploading to github
+2. git init -----> initializes  project with a .git folder
+3. git add <filename> -----> providing a staging area on git for the project files
+4. git commit -m "any message" -----> initial commit
+5. git status -----> status of repository
+6. git log ----> To view logs
+7. git rm --cached <filename> ----> To remove a file from staging area
+8. git branch <branchname> ----> To create new branch
+9. git checkout <branchname> ----> To switch between branches
+10.git merge <branchname> ----> To merge a branch to current branch 
+11.copy the .git origin command after creating a repo on github
+12.git push -u master ----> To push the files from local to remote server (same command to push a branch)
+13.git pull ----> To pull changes from remote server to local 
